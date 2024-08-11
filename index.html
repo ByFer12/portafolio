@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="backgroundCanvas"></canvas>
+    <div class="background"></div>
+    <div class="background"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#cv">Descargar CV</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggle" class="theme-toggle">🌙</button>
+    </header>
+
+
+    <section id="home" class="section">
+        <div class="personal-info" ">
+            <img src="/image/photo.jpg
+            " alt="Tu Foto" class="profile-pic" style="margin-top:50px ;">
+            <h1>¡Hola! Soy Byron Fernando Torres Ajxup</h1>
+            <p>Programador con conocimientos en desarrollo web y tecnologías modernas.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Sobre Mí</h2>
+        <br>
+        <div class="about-card">
+            <p>Actualmente estudio la carrera de Ingeniería en Ciencias y Sistemas en el Centro Universitario de Occidente - USAC (Quetzaltenango), actualmente cursando el sexto semestre de dicha carrera
+                Actualmente poseo un A2 en nivel de Ingeles.</p>
+            <h3>Experiencia</h3>
+            <ul>
+                <li><strong>Desarrollador Web Remoto en 4Bit Quetzaltenango:</strong> Trabajé con ASP.NET y jQuery en diversos proyectos, desarrollando aplicaciones web y mejorando la funcionalidad de sistemas existentes.</li>
+                <li><strong>Tutorías Virtuales:</strong> He dado tutorías virtuales a estudiantes de programación, cubriendo temas como desarrollo web y conceptos básicos de programación.</li>
+                <li><strong>Tutorías de Ofimática:</strong> He brindado formación en ofimática, ayudando a estudiantes a dominar herramientas como Microsoft Office y Google Workspace.</li>
+            </ul>
+ 
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="projects-header">
+            <h2>Mis Proyectos Personales y con Clientes</h2>
+            <p>Aquí puedes ver algunos de los proyectos en los que he trabajado, tanto personales como para clientes.</p>
+        </div>
+        <div class="projects">
+            <div class="project-card">
+                <h4>SQL Emulator</h4>
+                <p>Aplicación de escritorio que simula SQL para pruebas y desarrollo. Utiliza herramientas como JFlex y JCUP para realizar un intérprete. Recibe un archivo de configuración y lee archivos .csv.</p>
+                <a href="https://github.com/ByFer12/SqlEmulator.git" target="_blank">Ver en GitHub</a>
+            </div>
+            <div class="project-card">
+                <h4>Subscripciones</h4>
+                <p>Aplicación frontend hecha con React que realiza un pequeño CRUD, agrega plataformas de streaming y calcula dinero disponible.</p>
+                <a href="https://byfer12.github.io/projectReact/" target="_blank">Ver en Página Web</a>
+            </div>
+            <div class="project-card">
+                <h4>Api Peliculas</h4>
+                <p>Proyecto terminado para un cliente que solicitaba una API hecha en Node.js. Incluye inicio de sesión, préstamo de películas, devolución, cobro por préstamos, etc.</p>
+                <a href="https://github.com/ByFer12/back-peliculas-api.git" target="_blank">Ver en GitHub</a>
+            </div>
+            <div class="project-card">
+                <h4>Travel Map</h4>
+                <p>Un emulador SQL para pruebas y desarrollo utilizando herramientas como JFlex y JCUP para realizar un intérprete.</p>
+                <a href="https://github.com/ByFer12/TravelMap" target="_blank">Ver en GitHub</a>
+            </div>
+            <!-- Puedes añadir más tarjetas de proyectos aquí -->
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Mis Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h4>HTML</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="75%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="75%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>React js</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Angular</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="50%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Java</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Python</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Django</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="65%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Nodejs y express</h4>
+                <div class="progress-bar">
+                    <div class="progress" data-width="60%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="section">
+        <h2>Descargar CV</h2>
+        <a href="https://drive.google.com/drive/folders/1EwOKXmiFqYB_V8BVGeTZXW-d2p5rfJ-u?usp=sharing" target="_blank" download>Descargar Mi CV</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Byron Torres. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
